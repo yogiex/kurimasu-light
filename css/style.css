@@ -1,0 +1,37 @@
+body {
+    background: rgb(25, 21, 26);
+}
+.main {
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titik {
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    background: rgba(0, 0, 0, 0.3);
+    position: relative;
+    border-radius: 50%;
+    transition: 1s all ease;
+}
+
+.merah {
+    background-color: red;
+}
+
+.kuning {
+    background-color: yellow;
+}
+
+.hijau {
+    background-color: green;
+}
+.cyan {
+    background-color: cyan;
+}
+
+.tombol {
+    border-radius: 75%;
+}
