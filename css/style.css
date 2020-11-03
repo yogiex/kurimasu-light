@@ -15,8 +15,15 @@ body {
     position: relative;
     border-radius: 50%;
     transition: 1s all ease;
+    margin: 1rem;
 }
-
+.judul {
+    font-family: 'Cinzel', sans-serif;
+    letter-spacing: 2px;
+    font-size: 2rem;
+    text-align: center;
+    text-shadow: 0 0 30px white;
+}
 .merah {
     background-color: red;
     animation: nyalamerah 1s infinite;
@@ -57,20 +64,20 @@ body {
 @keyframes nyalakuning{
     0%,
     100% { 
-        box-shadow: 0px 0px 50px 5px yellow;
+        box-shadow: none;
     }
     50% {
-        box-shadow: none;
+        box-shadow: 0px 0px 50px 5px yellow;
     }
 }
 
 @keyframes nyalahijau{
     0%,
     100% { 
-        box-shadow: 0px 0px 50px green;
+        box-shadow: none;
     }
     50% {
-        box-shadow: none;
+        box-shadow: 0px 0px 50px green;
     }
 }
 
