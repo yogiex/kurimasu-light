@@ -9,8 +9,8 @@ body {
 }
 .titik {
     display: inline-block;
-    height: 25px;
-    width: 25px;
+    height: 50px;
+    width: 50px;
     background: rgba(0, 0, 0, 0.3);
     position: relative;
     border-radius: 50%;
@@ -19,19 +19,27 @@ body {
 
 .merah {
     background-color: red;
+    animation: nyalamerah 1s infinite;
 }
 
 .kuning {
     background-color: yellow;
+    animation: nyalakuning 1s infinite;
 }
 
 .hijau {
     background-color: green;
+    animation: nyalahijau 1s infinite;
 }
 .cyan {
     background-color: cyan;
+    animation: nyalacyan 1s infinite;
 }
 
 .tombol {
     border-radius: 75%;
+}
+
+.tombolonoff {
+    margin-top: 5%;
 }
