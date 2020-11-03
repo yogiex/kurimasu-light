@@ -43,3 +43,43 @@ body {
 .tombolonoff {
     margin-top: 5%;
 }
+
+@keyframes nyalamerah{
+    0%,
+    100% { 
+        box-shadow: 0px 0px 50px 5px red;
+    }
+    50% {
+        box-shadow: none;
+    }
+}
+
+@keyframes nyalakuning{
+    0%,
+    100% { 
+        box-shadow: 0px 0px 50px 5px yellow;
+    }
+    50% {
+        box-shadow: none;
+    }
+}
+
+@keyframes nyalahijau{
+    0%,
+    100% { 
+        box-shadow: 0px 0px 50px green;
+    }
+    50% {
+        box-shadow: none;
+    }
+}
+
+@keyframes nyalacyan{
+    0%,
+    100% { 
+        box-shadow: 0px 0px 50px cyan;
+    }
+    50% {
+        box-shadow: none;
+    }
+}
